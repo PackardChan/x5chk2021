@@ -1,0 +1,19 @@
+Please kindly cite our journal article:
+
+Chan, P. W., Hassanzadeh, P., & Kuang, Z. (submitted). Eddy length scale response to static stability change in an idealized dry atmosphere: A linear response function approach. Journal of the Atmospheric Sciences, x(x), x–x. https://doi.org/10.1175/JAS-D-21-0044.1
+
+@article{Chan-2021,
+   author = {Chan, Pak Wah and Hassanzadeh, Pedram and Kuang, Zhiming},
+   title = {{Eddy length scale response to static stability change in an idealized dry atmosphere: A linear response function approach}},
+   journal = {Journal of the Atmospheric Sciences},
+   volume = {x},
+   number = {x},
+   pages = {x-x},
+   DOI = {10.1175/JAS-D-21-0044.1},
+   year = {2021},
+   type = {Journal Article}
+}
+
+and our data repository:
+(To be added after acceptance)
+

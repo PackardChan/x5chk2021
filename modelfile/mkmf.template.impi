@@ -1,0 +1,16 @@
+# template for the Intel fortran compiler
+# typical use with mkmf
+# mkmf -t template.impi -c"-Duse_libMPI -Duse_netCDF" path_names /usr/local/include
+#FC = /opt/mpich-1.2.7p1/bin/mpif90
+#LD = /opt/mpich-1.2.7p1/bin/mpif90
+FC = mpiifort
+LD = mpiifort
+CC = icc
+#FFLAGS = -i4 -r8 -xW -fpp -O3 -I/usr/include -I/odyssey/home/cwalker/local/netcdf-3.6.2.gnu/include
+FFLAGS = -i4 -r8 -fpp -O3  -xHost -nowarn
+# FFLAGS = -i4 -r8 -fpp -g #debugging
+LDFLAGS = $(LIBS)
+# LIBS needs to be customized for your site
+#LIBS = -L/opt/netcdf-3.6.0-p1/lib -lnetcdf
+LIBS = -L${LIBRARY_PATH} -lnetcdff -lnetcdf
+CFLAGS = -D__IFC
